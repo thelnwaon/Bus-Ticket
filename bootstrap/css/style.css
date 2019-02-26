@@ -1,0 +1,140 @@
+
+.space {
+    height: 5px;
+}
+
+.to-right {
+    float: right;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+.none-border-bottom{
+    border-bottom: none !important;
+}
+
+.btn-tb {
+    min-width: 100px;
+    margin: 0px;
+}
+
+.table-striped td:nth-child(6){
+    padding: 1px;
+    width: 210px;
+}
+
+.an-user td:nth-child(1){
+    text-align: right;
+    width: 200px;
+}
+.red{
+    color: red;
+}
+.box-right{
+    float: right;
+    margin-right: 10px;
+}
+body{
+      /*background-image: url("../../img/bg3.jpg");*/
+    background-color: #F2F2F2;
+     background-repeat: no-repeat;
+    background-size:  100%;
+    position: relative;
+     background-attachment: fixed;
+    background-position: center; 
+}
+.topicMovies {
+    color: #333 ;
+    font-size: 18px;
+    text-transform: uppercase;
+    background: url(../../img/shade01.jpg) repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-family: 'DBHelvethaicaXReg';
+}
+.black{ 
+    background-color: #2E2E30 !important;
+}
+.border-black{
+    border-color: #000 !important;
+}
+.mar{
+    background-color: #808080;
+    margin-top:-20px;
+
+}
+.color-panel{
+    background-color: #f2f2f2 !important;
+    border : 0 !important;
+
+}
+.none-radius{
+    border-radius: 0 !important;
+    background-color:#6699ff !important;
+    border-color :  #4d88ff;
+    box-shadow: 1px 1px 1px 1px #b3b3b3;
+}
+
+.navbar-header .acolor{
+    color: #fff !important;
+}
+
+.none-radius a{
+    color: #f2f2f2 !important;
+}
+.none-radius a:active{
+    /*background-color: #999999 !important;*/
+    border-radius: 2px !important;
+    color:  #fff !important;
+
+}
+.none-radius a:hover{
+     /*background-color: #999999 !important;*/
+      border-radius: 2px !important;
+      color:#fff !important;
+      /*border:1px solid red !important;*/
+}
+.activity a {
+     /* background-color: #999999;
+      border-radius: 2px !important;*/
+      color:#fff!important;
+}
+.panel-padding{
+    padding: 0px 10px 15px 10px;
+}
+.border-movie{
+    border : 1px solid #DDD !important;
+}
+.border{
+    border-left : 1px solid  #DDD !important;
+    background-color: #bfbfbf !important;
+    text-align: right;
+}
+.colorpanel{
+    background-color: rgba(255,255,255,0.3) !important;
+}
+.margin-table{
+    margin: 15px 15px 15px 30px !important;
+}
+.btn-padding {
+    padding: 10px 30px  !important;
+    font-size: 20px;
+}
+.tb{
+    width: 100%;
+    border : 1px solid #f2f2f2 !important;
+    
+}
+.border-left{
+    border-left: 1px solid #000 !important;
+}

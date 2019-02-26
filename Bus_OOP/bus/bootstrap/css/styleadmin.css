@@ -1,0 +1,93 @@
+.topicMovies {
+
+    color: #333 ;
+    font-size: 18px;
+    text-transform: uppercase;
+    background: url(../../img/shade01.jpg) repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-family: 'DBHelvethaicaXReg';
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+.noborder{
+	border-radius: 0px !important;
+}
+table tr th {
+	text-align: center;
+}
+table tr td{
+	text-align: center;
+}
+#showcinema:hover{
+    cursor: pointer;
+}
+.book_st_poster img{
+    margin-left: 14px;
+    /*margin-top: 15px;*/
+    width: 109px;
+    border-radius: 5px;
+}
+.book_st_mvname {
+    font-size: 24px;
+}
+.white{
+    background-color: #fff !important;
+}
+.border-movie{
+    border : 1px solid #DDD !important;
+}
+.border{
+    border-left : 1px solid  #DDD !important;
+    background-color: #bfbfbf !important;
+    text-align: right;
+}
+.t-table{
+    margin : 0 auto;
+}
+.t-table tr td{
+    padding : 3px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius:5px; 
+    border-bottom-right-radius: 5px;
+}
+.t-table tr th{
+/*  background-color: green;
+    height: 50px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;*/
+}
+.none-color{
+    background-color: #fff !important;
+}
+.red{
+    background-color: red;
+}
+.box{
+    position: relative;
+    z-index: 0;
+    z-index : 1;
+}
+ .box .box-in-box{
+    left: 0;
+    top : 0;
+    position : absolute;
+    z-index: 1;
+
+}
+.box img:hover{
+    cursor: pointer;
+}
